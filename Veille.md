@@ -1,6 +1,5 @@
 # Veille IT
 
-## Radar techno
 
 Veille technologique
 
@@ -79,14 +78,10 @@ Veille technologique
   <https://cyberveille-sante.gouv.fr>
 - **HAS** : recomandations
   <https://www.has-sante.fr>
-- **Hospimedia** : actu hospitalière
-  <https://www.hospimedia.fr>
 - **HIMSS** : santé et numérique
   <https://www.himss.org>
 - **Healthcare IT News** : actu internationale
   <https://www.healthcareitnews.com>
-- **Fierce Healthcare** : marché de la santé
-  <https://www.fiercehealthcare.com>
 
 
 ### Entreprises
