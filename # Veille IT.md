@@ -18,15 +18,6 @@
 - LINC (CNIL)
   <https://linc.cnil.fr>
 
-### Marché et produits
-
-- AlternativeTo
-  <https://alternativeto.net>
-- G2
-  <https://www.g2.com>
-- Product Hunt
-  <https://www.producthunt.com>
-
 ## Archives officielles
 
 ### Institutions
@@ -107,14 +98,6 @@
 - OSINT-FR
   <https://osint-fr.net>
 
-### Outils
-
-- OSINT Framework
-  <https://osintframework.com>
-- Shodan
-  <https://www.shodan.io>
-- Have I Been Pwned
-  <https://haveibeenpwned.com>
 
 ## Comptes X
 
@@ -163,3 +146,12 @@
 - media.ccc.de
   <https://media.ccc.de>
 - DEF CON, Black Hat, Hexacon (sur YouTube)
+
+### Outils
+
+- AlternativeTo
+  <https://alternativeto.net>
+- G2
+  <https://www.g2.com>
+- Product Hunt
+  <https://www.producthunt.com>
