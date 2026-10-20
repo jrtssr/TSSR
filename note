@@ -1,0 +1,112 @@
+# Notes de cours - OS / Windows
+
+
+## 1. IA locale (Llama)
+
+- Installation d'un LLM en local sous Windows (tuto Korben)
+- Modèle installé : Gemma 3 270M, Q4_0, 241 Mo
+- Fonctionne sans internet, sur le PC
+- Le choix du modèle dépend de la taille (270M à 27B) : plus c'est gros, plus il faut de RAM
+- Tuto : https://korben.info/llama-windows-llm-local.html
+
+---
+
+## 2. Définition d'un OS
+
+- OS = système d'exploitation
+- Lien entre le matériel et les applications
+- Gère CPU, RAM, disques, fichiers, utilisateurs
+
+```text
+Hardware -> HAL -> POST -> BIOS/UEFI -> OS
+```
+
+- Hardware : minimum CPU + RAM
+- HAL : couche entre matériel et OS
+- POST : autotest au démarrage
+- BIOS/UEFI : lance le POST puis l'OS
+
+---
+
+## 3. Histoire des OS
+
+```text
+UNIX
+ |- POSIX (norme)
+ |- BSD
+ |   |- FreeBSD / OpenBSD / NetBSD
+ |   `- Darwin -> macOS -> iOS
+ `- Linux -> Android
+```
+
+- UNIX : ancêtre
+- POSIX : norme de compatibilité Unix
+- BSD : dérivé d'Unix, 3 branches (Free, Open, Net)
+- Xen : hyperviseur (virtualisation)
+- Linux : noyau libre, Unix-like
+- macOS : basé sur BSD
+- iOS : macOS pour mobile
+- Android : basé sur Linux
+
+---
+
+## 4. Histoire de Windows
+
+- Ligne DOS : MS-DOS (1981) -> Windows 1.0 -> 3.1 -> 95 -> 98 -> ME
+- Ligne NT : NT 3.1 -> 2000 -> XP (2001) -> Vista -> 7 -> 8 -> 10 (2015) -> 11 (2021)
+- Depuis XP : tout est basé sur le noyau NT
+
+---
+
+## 5. Raccourcis
+
+- `Win + R` : Exécuter
+- `Win + E` : Explorateur
+- `Win + X` : menu administrateur
+- `Win + L` : verrouiller
+- `Win + D` : Bureau
+- `Win + Tab` : vue des tâches
+- `Win + V` : presse-papiers
+- `Win + Shift + S` : capture d'écran
+- `Ctrl + Z` : annuler
+- `Ctrl + C / X / V` : copier / couper / coller
+- `Ctrl + Shift + Échap` : gestionnaire des tâches
+- `Alt + Tab` : changer de fenêtre
+- `Alt + F4` : fermer
+- `Shift + Suppr` : suppression définitive
+
+---
+
+## 6. Outils cachés (Win + R)
+
+- `compmgmt.msc` : gestion de l'ordinateur
+- `diskmgmt.msc` : gestion des disques
+- `devmgmt.msc` : périphériques
+- `lusrmgr.msc` : utilisateurs et groupes
+- `services.msc` : services
+- `eventvwr.msc` : événements
+- `gpedit.msc` : stratégie de groupe
+- `msinfo32` : infos système
+- `msconfig` : configuration système
+- `regedit` : registre
+- `ncpa.cpl` : réseau
+- `sysdm.cpl` : propriétés système
+- `%temp%`, `%appdata%`, `%userprofile%` : dossiers utiles
+
+---
+
+## 7. CMD et PowerShell
+
+- CMD 
+- PowerShell 
+
+---
+
+## 8. Variables d'environnement
+
+- Infos données au système et aux programmes
+- `%PATH%`, `%USERNAME%`, `%TEMP%`, `%USERPROFILE%`
+- Modifier : `sysdm.cpl` > Avancé > Variables d'environnement
+
+
+---
