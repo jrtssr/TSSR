@@ -1,4 +1,4 @@
-# Déploiement de Windows 10 avec WDS autonome (VMware Workstation)
+
 
 ## Principe
 - **WDS** (Windows Deployment Services) : serveur qui installe Windows sur des postes **via le réseau** (boot **PXE**), sans ISO ni clé USB.
